@@ -1,0 +1,47 @@
+body{
+  background-color: powderblue;
+}
+
+h1{
+  color: black;
+}
+
+h2{
+  color: black;
+}
+
+h3{
+  color: black;
+}
+
+
+div.menu {
+	width:95% ;
+	position: relative;
+	top: 0ex;
+	left: 0ex ;
+	margin: 1ex 2ex 1ex 2ex ;
+	background-color: white ;
+	border-color: rgba(200,100,100,0.7) ;
+	border-style:outset ;
+	-moz-border-radius: 15px ;
+	border-radius: 15px ;
+	box-shadow: 10px 10px 5px rgba(100,100,100,0.7) ;
+}
+
+a:hover {
+		font-style:oblique ;
+}
+
+div.box{
+  width:auto;
+	border-style:inset ;
+	border-color : rgb(173,224,255) ;
+	background-color:rgb(255,255,255) ;
+	padding: 1ex 2ex 2ex 1ex;
+  position: center;
+	margin-top: 0ex ;
+	margin-bottom: 0ex ;
+	-moz-border-radius: 15px ;
+	border-radius: 15px ;
+}
