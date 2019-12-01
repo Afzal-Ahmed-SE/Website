@@ -16,17 +16,18 @@ h3{
 
 
 div.menu {
-	width:95% ;
+	width:100% ;
 	position: relative;
+  align: center;
 	top: 0ex;
 	left: 0ex ;
-	margin: 1ex 2ex 1ex 2ex ;
+	margin: 0ex 0ex 0ex 0ex ;
 	background-color: white ;
 	border-color: rgba(200,100,100,0.7) ;
 	border-style:outset ;
-	-moz-border-radius: 15px ;
-	border-radius: 15px ;
-	box-shadow: 10px 10px 5px rgba(100,100,100,0.7) ;
+	-moz-border-radius: 5px ;
+	border-radius: 5px ;
+	box-shadow: 5px 5px 2.5px rgba(100,100,100,0.7) ;
 }
 
 a:hover {
