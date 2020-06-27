@@ -1,4 +1,4 @@
-/*******
+  /*******
 Project/Template Name:  FinancePress - Business and Finance HTML Template
 Template Url:  https://themeforest.net/item/financepress-business-and-finance-html-template/22409848
 Author: Unlock Design
@@ -15,20 +15,13 @@ Tag: accountant, adviser, attorney, business, consultant, corporate, creative, f
 @import url(elegantIcons.css);
 @import url(flaticon.css);
 @import url(pe-icon-7-stroke.css);
-@import url(icon-moon.css);
 @import url(animate.css);
 @import url(bootsnav.css);
-@import url(fullcalendar.min.css);
 @import url(slider.css);
 @import url(hover.css);
 @import url(imagehover.css);
 @import url(fancyBox.css);
-@import url(owl.css);
-@import url(isotop.css);
 @import url(magnific-popup.css);
-@import url(flipclock.css);
-@import url(timecounter.css);
-@import url(3d-buttons.css);
 @import url(https://fonts.googleapis.com/css?family=Lato|Raleway:400,500,700);
 /* Table of contents */
 
@@ -1766,7 +1759,7 @@ body.wrap-nav-sidebar .wrapper {
 
 .ulockd_bgi2 {
   background-attachment: scroll;
-  background-image: url("../images/background/2.jpg");
+  background-image: url("../images/h2.jpg");
   background-position: center top;
   background-repeat: no-repeat;
   -webkit-background-size: cover;
@@ -1776,7 +1769,7 @@ body.wrap-nav-sidebar .wrapper {
 
 .ulockd_bgi3 {
   background-attachment: scroll;
-  background-image: url("../images/background/3.jpg");
+  background-image: url("../images/DIET.jpg");
   background-position: center top;
   background-repeat: no-repeat;
   -webkit-background-size: cover;
