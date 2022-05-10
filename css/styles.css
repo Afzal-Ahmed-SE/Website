@@ -21,7 +21,7 @@ li{
 div.menu {
 	width:100% ;
 	position: relative;
-  align: center;
+	box-align: center;
 	top: 0ex;
 	left: 0ex ;
 	margin: 0ex 0ex 0ex 0ex ;
