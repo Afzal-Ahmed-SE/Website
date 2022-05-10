@@ -1,79 +1,121 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 <style>
-body {background-color: powderblue;}
-h1   {color: black;}
-h2   {color: blue;}
-h3    {color: purple;}
+  body {
+    background-color: powderblue;
+  }
+
+  h1 {
+    color: black;
+  }
+
+  h2 {
+    color: blue;
+  }
+
+  h3 {
+    color: purple;
+  }
 </style>
+
 <head>
   <meta charset="utf-8">
   <title> Digital Image Processing </title>
   <link rel="stylesheet" href="../../../css/styles.css">
-<link rel="shortcut icon" href="..\..\..\Attachments\MUST-Logo.png">
+  <link rel="shortcut icon" href="..\..\..\Attachments\MUST-Logo.png">
 </head>
+
 <body>
+  <div class="outer_box">
+    <h1 align="center" style="background-color:DodgerBlue"> Digital Image Processing </h1>
+    <h2> Course Contents: </h2>
+    <div class="box">
+      <p align="justify">Intorduction to DIP (Image sources, acquisition and representation, Key stages in DIP), Human
+        vision, Image interpolation (pixel replication, nearest neighbor interpolation, comparison of interpolations),
+        Steganography Neighborhood (4,8 and diagonal) & connectivity (4 , 8 & m connectivity) Paths and regions, CC
+        labeling, Image enhancement, Contrast stretching, histogram equalization, Spatial filtering, Spatial
+        differentiation, Laplacian filter and enhancement, Usage of gradient for image enhancement (Sobel & Prewitt
+        operator), Morphological Image processing, set theory, hit and fit of structuring element, Erosion and dilation,
+        opening and closing, Image Segmentation, Detection of Discontinuities, Point Detection, Line Detection, Edge
+        Detection, Edge Linking and Boundary Detection, Local Processing, Thresholding, Basic Global Thresholding, Basic
+        Adaptive Thresholding, Local Thresholding, Region Growing, Region Splitting and Merging</p>
+    </div>
+    <h2> Lecture Notes: </h2>
+    <div class="box">
+      <ul>
+        <li><a href="..\..\..\Attachments\DigitalImageProcessing\1a-Introduction_to_DIP.pdf"> Lecture 01 (Part I) </a>
+        </li>
+        <li><a href="..\..\..\Attachments\DigitalImageProcessing\1b-Introduction_to_DIP.pdf"> Lecture 01 (Part II) </a>
+        </li>
+        <li><a href="..\..\..\Attachments\DigitalImageProcessing\2A-Fundamentals.pdf"> Lecture 02 (Part A) </a></li>
+        <li><a href="..\..\..\Attachments\DigitalImageProcessing\2B_-_Fundamentals.pdf"> Lecture 02 (Part B) </a></li>
+        <li><a href="..\..\..\Attachments\DigitalImageProcessing\2C_-_Fundamentals.pdf"> Lecture 02 (Part C) </a></li>
+        <li><a href="..\..\..\Attachments\DigitalImageProcessing\2D_-_Fundamentals.pdf"> Lecture 02 (Part D) </a></li>
+        <li><a href="..\..\..\Attachments\DigitalImageProcessing\3A_-_Intensity_Transformations.pdf"> Lecture 03 (Part
+            A) </a></li>
+        <li><a href="..\..\..\Attachments\DigitalImageProcessing\3B_-_Intensity_Transformations.pdf"> Lecture 03 (Part
+            B) </a></li>
+        <li><a href="..\..\..\Attachments\DigitalImageProcessing\3C_-_Spatial_Filtering.pdf"> Lecture 03 (Part C) </a>
+        </li>
+        <li><a href="..\..\..\Attachments\DigitalImageProcessing\3D_-_Spatial_Filtering.pdf"> Lecture 03 (Part D) </a>
+        </li>
+        <li><a href="..\..\..\Attachments\DigitalImageProcessing\6-ColorImageProcessing.pdf"> Lecture 04 </a></li>
+        <li><a href="..\..\..\Attachments\DigitalImageProcessing\8A-Image_Compression.pdf"> Lecture 04 (Part A) </a>
+        </li>
+        <li><a href="..\..\..\Attachments\DigitalImageProcessing\8B_Image_Compression.pdf"> Lecture 04 (Part B) </a>
+        </li>
+        <li><a href="..\..\..\Attachments\DigitalImageProcessing\8C_Video_Compression.pdf"> Lecture 04 (Part C) </a>
+        </li>
+        <li><a href="..\..\..\Attachments\DigitalImageProcessing\9A_-_Morphological_Image_Processing.pdf"> Lecture 05
+            (Part A) </a></li>
+        <li><a href="..\..\..\Attachments\DigitalImageProcessing\9B-Morphological_Image_Processing.pdf"> Lecture 05
+            (Part B) </a></li>
+        <li><a href="..\..\..\Attachments\DigitalImageProcessing\9C-Morphological_Image_Processing.pdf"> Lecture 05
+            (Part C) </a></li>
+        <li><a href="..\..\..\Attachments\DigitalImageProcessing\10_A-ImageSegmentation.pdf"> Lecture 06 (Part A) </a>
+        </li>
+        <li><a href="..\..\..\Attachments\DigitalImageProcessing\10B_Image_Segmentation.pdf"> Lecture 06 (Part B) </a>
+        </li>
+      </ul>
+    </div>
 
-  <h1 align = "center" style="background-color:DodgerBlue"> Digital Image Processing </h1>
-<h2> Course Contents: </h2>
-  <div class="box">
-<p align = "justify">Intorduction to DIP (Image sources, acquisition and representation, Key stages in DIP), Human vision, Image interpolation (pixel replication, nearest neighbor interpolation, comparison of interpolations), Steganography Neighborhood (4,8 and diagonal)  & connectivity (4 , 8 & m connectivity) Paths and regions, CC labeling, Image enhancement, Contrast stretching, histogram equalization, Spatial filtering, Spatial differentiation, Laplacian filter and enhancement,  Usage of gradient for image enhancement (Sobel & Prewitt operator), Morphological Image processing, set theory, hit and fit of structuring element, Erosion and dilation, opening and closing, Image Segmentation, Detection of Discontinuities, Point Detection, Line Detection, Edge Detection, Edge Linking and Boundary Detection, Local Processing, Thresholding, Basic Global Thresholding, Basic Adaptive Thresholding, Local Thresholding, Region Growing, Region Splitting and Merging</p>
-</div>
-  <h2> Lecture Notes: </h2>
-  <div class="box">
-    <ul>
-      <li><a href= "..\..\..\Attachments\DigitalImageProcessing\1a-Introduction_to_DIP.pdf"> Lecture 01 (Part I) </a></li>
-      <li><a href= "..\..\..\Attachments\DigitalImageProcessing\1b-Introduction_to_DIP.pdf"> Lecture 01 (Part II) </a></li>
-      <li><a href= "..\..\..\Attachments\DigitalImageProcessing\2A-Fundamentals.pdf"> Lecture 02 (Part A) </a></li>
-      <li><a href= "..\..\..\Attachments\DigitalImageProcessing\2B_-_Fundamentals.pdf"> Lecture 02 (Part B) </a></li>
-      <li><a href= "..\..\..\Attachments\DigitalImageProcessing\2C_-_Fundamentals.pdf"> Lecture 02 (Part C) </a></li>
-      <li><a href= "..\..\..\Attachments\DigitalImageProcessing\2D_-_Fundamentals.pdf"> Lecture 02 (Part D) </a></li>
-      <li><a href= "..\..\..\Attachments\DigitalImageProcessing\3A_-_Intensity_Transformations.pdf"> Lecture 03 (Part A) </a></li>
-      <li><a href= "..\..\..\Attachments\DigitalImageProcessing\3B_-_Intensity_Transformations.pdf"> Lecture 03 (Part B) </a></li>
-      <li><a href= "..\..\..\Attachments\DigitalImageProcessing\3C_-_Spatial_Filtering.pdf"> Lecture 03 (Part C) </a></li>
-      <li><a href= "..\..\..\Attachments\DigitalImageProcessing\3D_-_Spatial_Filtering.pdf"> Lecture 03 (Part D) </a></li>
-      <li><a href= "..\..\..\Attachments\DigitalImageProcessing\6-ColorImageProcessing.pdf"> Lecture 04 </a></li>
-      <li><a href= "..\..\..\Attachments\DigitalImageProcessing\8A-Image_Compression.pdf"> Lecture 04 (Part A) </a></li>
-      <li><a href= "..\..\..\Attachments\DigitalImageProcessing\8B_Image_Compression.pdf"> Lecture 04 (Part B) </a></li>
-      <li><a href= "..\..\..\Attachments\DigitalImageProcessing\8C_Video_Compression.pdf"> Lecture 04 (Part C) </a></li>
-      <li><a href= "..\..\..\Attachments\DigitalImageProcessing\9A_-_Morphological_Image_Processing.pdf"> Lecture 05 (Part A) </a></li>
-      <li><a href= "..\..\..\Attachments\DigitalImageProcessing\9B-Morphological_Image_Processing.pdf"> Lecture 05 (Part B) </a></li>
-      <li><a href= "..\..\..\Attachments\DigitalImageProcessing\9C-Morphological_Image_Processing.pdf"> Lecture 05 (Part C) </a></li>
-      <li><a href= "..\..\..\Attachments\DigitalImageProcessing\10_A-ImageSegmentation.pdf"> Lecture 06 (Part A) </a></li>
-      <li><a href= "..\..\..\Attachments\DigitalImageProcessing\10B_Image_Segmentation.pdf"> Lecture 06 (Part B) </a></li>
-    </ul>
+
+
+    <h2> Assignments: </h2>
+    <div class="box">
+      <ul>
+        <li><a href="..\..\..\Attachments\DigitalImageProcessing\Assignment1DIP.pdf"> Assignment 01 </a></li>
+        <li><a href="..\..\..\Attachments\DigitalImageProcessing\Assignment2DIP.pdf"> Assignment 02 </a></li>
+      </ul>
+    </div>
+
+
+    <h2> Project: </h2>
+    <div class="box">
+      <ul>
+        <li><a href="..\..\..\Attachments\DigitalImageProcessing\Project1.pdf"> Project 01 </a></li>
+        <li><a href="..\..\..\Attachments\DigitalImageProcessing\Project2.pdf"> Project 03 </a></li>
+        <li><a href="..\..\..\Attachments\DigitalImageProcessing\Project3.pdf"> Project 03 </a></li>
+      </ul>
+    </div>
+
+    <h2> Resources: </h2>
+    <div class="box">
+      <ul>
+        <li><a
+            href="https://github.com/dazzz/patrec2015/blob/master/Pattern%20Classification%20by%20Richard%20O.%20Duda%2C%20David%20G.%20Stork%2C%20Peter%20E.Hart%20.pdf"
+            target="_blank">Pattern Classification by Duda et al., John Wiley & Sons.</a></li>
+        <li><a
+            href="http://sdeuoc.ac.in/sites/default/files/sde_videos/Digital%20Image%20Processing%203rd%20ed.%20-%20R.%20Gonzalez%2C%20R.%20Woods-ilovepdf-compressed.pdf"
+            target="_blank">Digital Image Processing, Rafael C. Gonzalez & Richard E. Woods, Addison-Wesley, 2002</a>
+        </li>
+      </ul>
+    </div>
   </div>
-
-
-
-  <h2> Assignments: </h2>
-  <div class="box">
-    <ul>
-      <li><a href= "..\..\..\Attachments\DigitalImageProcessing\Assignment1DIP.pdf"> Assignment 01 </a></li>
-      <li><a href= "..\..\..\Attachments\DigitalImageProcessing\Assignment2DIP.pdf"> Assignment 02 </a></li>
-    </ul>
-  </div>
-
-
-  <h2> Project: </h2>
-  <div class="box">
-    <ul>
-      <li><a href= "..\..\..\Attachments\DigitalImageProcessing\Project1.pdf"> Project 01 </a></li>
-      <li><a href= "..\..\..\Attachments\DigitalImageProcessing\Project2.pdf"> Project 03 </a></li>
-      <li><a href= "..\..\..\Attachments\DigitalImageProcessing\Project3.pdf"> Project 03 </a></li>
-    </ul>
-  </div>
-
-  <h2> Resources: </h2>
-  <div class="box">
-    <ul>
-      <li><a href="https://github.com/dazzz/patrec2015/blob/master/Pattern%20Classification%20by%20Richard%20O.%20Duda%2C%20David%20G.%20Stork%2C%20Peter%20E.Hart%20.pdf" target="_blank">Pattern Classification  by Duda et al., John Wiley & Sons.</a></li>
-<li><a href="http://sdeuoc.ac.in/sites/default/files/sde_videos/Digital%20Image%20Processing%203rd%20ed.%20-%20R.%20Gonzalez%2C%20R.%20Woods-ilovepdf-compressed.pdf" target="_blank">Digital Image Processing, Rafael C. Gonzalez & Richard E. Woods, Addison-Wesley, 2002</a></li>
-    </ul>
-  </div>
-
   <footer>
-    <h3 align="center" background-color = "DodgerBlue"> <a href="https://afzalse.com/Pages/Teaching.html"> [Course Page] </a> </h3>
+    <h3 align="center" background-color="DodgerBlue"> <a href="https://afzalse.com/Pages/Teaching.html"> [Course Page]
+      </a> </h3>
   </footer>
 </body>
+
 </html>

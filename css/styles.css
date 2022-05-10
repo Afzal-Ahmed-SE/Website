@@ -1,5 +1,5 @@
 body{
-  background-color: powderblue;
+  background-color: hsl(189, 100%, 1%);
 }
 
 h1{
@@ -14,6 +14,9 @@ h3{
   color: black;
 }
 
+li{
+	margin: 5px 0;
+}
 
 div.menu {
 	width:100% ;
@@ -34,6 +37,20 @@ a:hover {
 		font-style:oblique ;
 }
 
+div.outer_box{
+	width:auto;
+	  border-style:inset ;
+	  border-color : rgb(173, 226, 255) ;
+	  background-color:rgb(202, 215, 208) ;
+	  padding: 1ex 10ex 10ex 10ex;
+	  position: center;
+	  margin-top: 0ex ;
+	  margin-bottom: 0ex ;
+	  -moz-border-radius: 15px ;
+	  border-radius: 15px ;
+  }
+
+  
 div.box{
   width:auto;
 	border-style:inset ;
@@ -46,3 +63,4 @@ div.box{
 	-moz-border-radius: 15px ;
 	border-radius: 15px ;
 }
+
